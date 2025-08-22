@@ -1,0 +1,66 @@
+/**
+ * @name Kuromi Theme
+ * @author SakiChanGaming
+ * @version 1.0
+ * @description A Kuromi Theme for Better Discord
+ * @source - made by me separately
+ */
+
+
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
+@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css");  /* backgroundless edition */
+
+:root{
+    --background: url('https://i.imgur.com/DD2cwPC.jpeg');
+    --activetext-colour: rgb(255, 255, 255);
+
+    --primary1-colour: rgb(131, 92, 131);
+    --primary2-colour: rgba(94, 60, 94, 0.5);
+    --primary3-colour: rgba(97, 70, 105, 0.6);
+
+    --secondary1-colour: rgba(109, 54, 102, 0.3);
+    --secondary2-colour: rgba(131, 68, 131, 0.5);
+    --secondary3-colour: rgba(35, 24, 36, 0.5); 
+
+    --rgb-highlight: 178, 102, 255;                          /* 4, 217, 255; /* The main highlight color */
+  --rgb-close-button: 224, 58, 62;                         /* The main "close this" or "deny" color */
+  --rgb-online-color: 31, 92, 171;                         /* (31, 147, 80: default green) /* The color used in the "online" user status symbol */
+  --rgb-afk-color: 220, 163, 46;                           /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 224, 58, 62;                            /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: 188, 19, 254;                     /* The color used in the "streaming X" user status symbol */
+  --status-danger-rgb: rgb(152, 51, 255);                /* The color used for every danger action/button */
+
+  --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
+
+  --show-original-title: 0;                                /* Whether you want to show discords original title (0 means no, 1 means yes) */
+  --show-custom-title: 1;                                  /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "Lande della Discordia";            /* The custom text you want to display */
+  --custom-title-font-size: 18px;                          /* The size in pixels of the custom title text */
+  --custom-title-font-weight: normal;                      /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  --custom-title-margin-top: 0px;                          /* The distance from the top of the window to the custom title text */
+  --custom-title-margin-left: 10px;                        /* The distance from the left side of the window to the custom title text */
+
+  --custom-channel-header-color: rgb(241, 236, 247);
+  --custom-channel-icon: rgb(153, 118, 187);              /* channel list unselected color */
+  --channel-icon: rgb(153, 118, 187) !important;    /* channel list unselected color */
+  --custom-selected-channel-color: rgb(78, 209, 203);     /* channel list selected color */
+  --cat-custom-color-rgba: 120, 138, 167;
+  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+
+  --custom-spoiler-color: rgb(148, 83, 212);            /* Spoilers color */
+
+  --darkPurple-background: rgb(46, 0, 58);              /* Textarea background color */
+
+  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
+  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */ 
+}
+  
+/*
+Theme Owned and Made by [discord]-(flowerbunny575) -SakiChanGaming
+                               
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+Base Module: https://github.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/blob/master/Themes/GGO_Kirito/GGO_Kirito.theme.css - By VaporiousCreeper
+Backgroundless: https://github.com/ungiglio/DiscordDiscordia/tree/main/BACKGROUNDLESS - By DiscordDiscordia
+
+The 3 items above are not owned by me, They go to there respected owners 
+*/
